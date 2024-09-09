@@ -1,0 +1,110 @@
+/* Container for Upload and Access Sections */
+.upload-access-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Spacing below the container */
+}
+
+/* Upload Health Data Section */
+.upload-section {
+    flex: 0 0 60%; /* Takes up 60% of the container width */
+    margin-right: 20px; /* Adds spacing between the sections */
+}
+
+/* Give Access Section */
+.access-section {
+    flex: 0 0 40%; /* Takes up 40% of the container width */
+}
+
+/* Container Padding */
+.container {
+    padding: 20px;
+    margin-left: 250px; 
+    width: calc(100% - 250px); /* Adjusted width calculation */
+}
+
+/* General Section Styling */
+.upload-section, .access-section, .records-section {
+    margin-bottom: 20px;
+}
+
+/* Headings Styling */
+.upload-section h1, .access-section h2, .records-section h2 {
+    margin-bottom: 10px;
+    color: #ffffff; /* Ensures heading color is visible on dark backgrounds */
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; /* Label color */
+}
+
+.form-group input {
+    width: 100%; /* Corrected width syntax */
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff; /* Light border for inputs */
+    border-radius: 4px;
+    background-color: #333; /* Dark input background for contrast */
+    color: #ffffff; /* White text color */
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 3D effect */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced 3D effect on hover */
+}
+
+/* Records List Styling */
+.records-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Record Box Styling */
+.record-box {
+    flex: 1 1 calc(33% - 15px); /* 3 records per row with space */
+    min-width: 250px; /* Ensures a minimum width */
+    padding: 15px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    border: 1px solid #4fc3f7; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle 3D shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.record-box:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
+/* View Link Styling */
+.view-link {
+    color: #0288d1; /* Darker blue */
+    text-decoration: none;
+}
+
+.view-link:hover {
+    text-decoration: underline;
+}
+
+

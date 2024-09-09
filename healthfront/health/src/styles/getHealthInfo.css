@@ -1,0 +1,26 @@
+/* styles/GetHealthInfo.css */
+.get-health-info {
+    margin-left: 150px;
+    padding: 1rem;
+}
+
+.health-info-details {
+    margin-left: 150px;
+    margin-bottom: 1rem;
+}
+
+.health-info-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+}
+
+.health-info-images img {
+    max-width: calc(120%);
+    max-height: 360px; /* Adjust as needed */
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

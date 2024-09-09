@@ -1,0 +1,52 @@
+/* Set the background color to black for the entire app */
+body {
+  background-color: #E0F7FA;
+  color: white; /* Ensure text is visible on a black background */
+}
+
+/* Center the content within the root element */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: black; /* Ensure the background remains black */
+}
+
+/* Style the logo */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+/* Add hover effects to the logo */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Animate the logo when reduced motion is not preferred */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Style the card */
+.card {
+  padding: 2em;
+  background-color: #222; /* Slightly lighter black for card background */
+  border-radius: 8px; /* Optional: Adds some curvature to the card edges */
+  color: white; /* Ensure text remains visible */
+}
+
+/* Style for the "Read the docs" text */
+.read-the-docs {
+  color: #888;
+}
+
